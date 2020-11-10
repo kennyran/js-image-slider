@@ -1,0 +1,43 @@
+h1 {
+    color: black; 
+    margin-left: 395px;
+    font-weight:bold;
+}
+
+div {
+    max-width: 1000px;
+    position: relative;
+}
+
+img {
+    width: 958px;
+    height: 578px;
+}
+
+.wrapper {
+    margin-left: 100px;
+}
+
+.btn1 {
+    position: absolute;
+    top: 45%;
+    left: 0;
+}
+
+.btn2 {
+    position: absolute;
+    top: 45%;
+    right: 0;
+}
+
+#btnl {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: lime;
+}
+
+#btnr {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: lime;
+}

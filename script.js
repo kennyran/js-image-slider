@@ -1,0 +1,17 @@
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) { // n can represent any number since I have 7 imgs
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length} 
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block"; // display the images as a block
+}
